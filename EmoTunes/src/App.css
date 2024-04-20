@@ -1,0 +1,17 @@
+body{
+  background-image: linear-gradient(#0e224e,#020b1a) ;
+  text-align: center;
+  color: white;
+}
+.option{
+  width: 20%;
+}
+.or{
+  color: white;
+}
+.spotify-embed{
+  transition: transform .2s;
+}
+.spotify-embed:hover{
+  transform: scale(1.15);
+}
