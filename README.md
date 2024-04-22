@@ -36,7 +36,7 @@ and following command in other with backend_api as working directory
 
 ## Demo video
 
-[![Demo Video](https://img.youtube.com/vi/cKKNdTMojGQ/0.jpg)](https://youtu.be/cKKNdTMojGQ)
+![Demo GIF](https://github.com/akshat2635/Emotion-Based-Music-Recommender/blob/master/Emotunes-demo.gif)
 
  
 
