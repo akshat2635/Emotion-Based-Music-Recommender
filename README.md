@@ -36,11 +36,7 @@ and following command in other with backend_api as working directory
 
 ## Demo video
 
- [Emotion-based music recommendation system](
-
-https://github.com/akshat2635/Emotion-Based-Music-Recommender/blob/master/Emotunes-Demo.mp4
-
-)
+ [Emotion-based music recommendation system]](https://img.youtube.com/vi/cKKNdTMojGQ/0.jpg)](https://www.youtube.com/watch?v=cKKNdTMojGQ)
  
 
 ## Authors
