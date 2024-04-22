@@ -104,13 +104,10 @@ def final(cur_img):
 def upload():
 
     image_data = request.form['image']
-    with open('stored_image_data.txt', 'w') as file:
-        file.write(image_data)
+    
     # Convert base64 image data to cv2 image array
     img_cv2 = base64_to_cv2(image_data)
     cur_img=cropped_img(img_cv2)
-    # Example processing: Save the image
-    cv2.imwrite(f'uploaded_image.jpg', img_cv2)
 
     data,pred=final(cur_img)
     return jsonify({"status":"received",
@@ -125,4 +122,4 @@ def mood(mood):
     return jsonify({"mood":mood,"data":data})
 
 if __name__ == '__main__':
-    app.run(host='0.0.0.0', port=5000,debug=True)
+    app.run(debug=True)

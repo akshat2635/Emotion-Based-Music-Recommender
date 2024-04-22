@@ -40,7 +40,9 @@ const WebcamCapture = (props) => {
   };
   return (
     <div className='container my-3' > 
-    <h3 className='or my-3'>Capture your image to get Recommendation</h3>
+    <h3 className='or my-3'>Emotion Based Music Recommender</h3>
+    {scap?<h5>Click on Capture Image to get Recommendation</h5>:
+    <h5>Click on {cap?"Retake Image":"Start Capture"} to Start Camera</h5>}
       <div className='container my-3'>
         {scap?<video ref={videoRef} autoPlay muted style={{ maxWidth: '100%', maxHeight: '300px' }}></video>:
         image && (
