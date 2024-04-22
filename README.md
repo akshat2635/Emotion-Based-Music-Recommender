@@ -37,7 +37,7 @@ and following command in other with backend_api as working directory
 ## Demo video
 
 <p align="center">
-  <img src="https://github.com/akshat2635/Emotion-Based-Music-Recommender/blob/master/Emotunes-demo.gif" alt="Demo GIF" width="400" height="300">
+  <img src="https://github.com/akshat2635/Emotion-Based-Music-Recommender/blob/master/Emotunes-demo.gif" alt="Demo GIF" width="480" height="270">
 </p>
 
  
