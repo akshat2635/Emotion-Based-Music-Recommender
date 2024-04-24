@@ -44,6 +44,6 @@ and following command in other with backend_api as working directory
 
 ## Authors
 
-- [Akshat Jain](https://github.com/akshat2635)
+- [Akshat Jain](https://github.com/akshat2635).[Ujjwal Jain](https://github.com/ujjwal1729)
 
 
